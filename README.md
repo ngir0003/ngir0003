@@ -1,125 +1,68 @@
-# 👋 Hi, I’m @ngir0003
+# Hi, I’m Samuel Ngiri 👋  `@ngir0003`
 
-## 👀 About Me
+Information Technology graduate and hands-on builder. I design, build and run my own software and production infrastructure end-to-end — **Rust** systems, **Python** data & ML pipelines, security tooling, and the occasional game. I reach for **Rust** by preference: its memory and concurrency guarantees kill whole classes of bugs at compile time, it’s fast on modest hardware, and one codebase ships native binaries across platforms.
 
-Hello! I’m Samuel Ngiri (@ngir0003), an enthusiastic developer with a passion for building automated systems, seamless workflows, and solving problems with innovative solutions. I have extensive experience in software development, system configuration, and web scraping projects. Additionally, I have a deep interest in improving healthcare technology, particularly in age care and disability services.
+## 👀 What I do
+- 🦀 **Systems in Rust** — Axum/Tokio services, single-binary deploys, `systemd`.
+- 🐍 **Python** — data engineering, ETL pipelines, web scraping, machine learning.
+- 🔐 **Cybersecurity** — applied vulnerability analysis, TLS, Argon2id, TOTP/2FA, hardening (HSTS/CSP, path-traversal/LFI, SPF/DKIM/DMARC).
+- 🖥️ **Self-hosting & Linux** — reverse proxies, mail, encrypted VPN mesh, RAID, backups.
+- 🎮 **Game dev** — Unity / C#.
 
-I'm also interested in:
+## 🛠️ Tech stack
 
-- Software automation and optimization
-- Virtual environments and virtualization
-- Web scraping for data analysis
-- Cybersecurity and encryption technologies
-- Cloud services (e.g., Nextcloud)
-- Technology solutions for age care and disability services
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
----
+![Axum](https://img.shields.io/badge/Axum-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-463C57?style=for-the-badge&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
 
-## 🌱 What I'm Currently Learning
+**Also:** probabilistic ML, ETL & data engineering, database modelling, CAT6A networking, virtualisation & Docker Compose.
 
-I'm constantly learning and expanding my skill set, with a focus on:
+## 🚀 Projects
 
-- **C++ Programming**: I’m working on the **Alphatron-001 virtual machine simulation**, which executes machine code instructions and follows the fetch-decode-execute cycle. This project helps deepen my understanding of low-level computing and system architecture.
-- **Web Scraping (Python)**: Developing scraping modules for dynamic websites like uflix.to to gather movie and series data. This includes parsing HTML, handling pagination, collecting metadata, and managing scraped data in an SQLite database, along with downloading images.
-- **System Configuration**: Configuring services like **stunnel** for secure connections and automating server environments using **Cygwin** on Windows and **VirtualBox** for running macOS.
-- **Web Development**: Building dynamic, interactive web pages using HTML, CSS, JavaScript, and PHP. I’m focused on user interfaces like **Service Coordinator Dashboards** for managing healthcare workflows.
-- **Automation in Healthcare**: Exploring how technology can streamline and improve care for the elderly and disabled, drawing from my experience in aged care.
+**Public**
+| Project | About |
+|---------|-------|
+| 🔓 [**Heartbleed_Demo**](https://github.com/ngir0003/Heartbleed_Demo) | Interactive **CVE-2014-0160** teaching lab — 3 Docker containers (Flask app behind stunnel/OpenSSL 1.0.1f, attacker console leaking memory & session cookies, explainer dashboard). x86-64 & ARM64. |
+| 📈 [**solana-trader**](https://github.com/ngir0003/solana-trader) | Python framework for the **Jupiter v6** DEX aggregator — RPC management, retry/backoff, env-based config. |
+| 🕸️ [**webScraping**](https://github.com/ngir0003/webScraping) + [**telegram_bot**](https://github.com/ngir0003/telegram_bot) | Modular Python pipeline: scrape dynamic sites → normalise into SQLite → download assets, with structured logging; a companion Telegram bot publishes formatted updates. |
+| 🎮 [**Terranean Assault**](https://github.com/MightyAttacker/Terranean-Assault) | Team-built **Unity/C#** game — gameplay programming, mechanics, iterative playtesting. |
+| 🪙 [**monero-playground**](https://github.com/ngir0003/monero-playground) | Experiments with `monero-wallet-rpc` for building Monero apps. |
 
----
+**Self-hosted Rust infrastructure** *(personal, ~40k LOC across four services)*
+- **High-throughput content archive** (Axum/Tokio, ~22k LOC) — layered compression pipeline hitting **90.1% reduction** (3.2 TB → 325 GB, 8.5M objects), 20.1M-record SQLite via `sqlx`, adaptive worker pool, 30-language neural machine translation (CTranslate2/NLLB).
+- **Transaction & settlement system** (Axum, ~11k LOC) — 2FA partner-API login, ledger reconciliation, RBAC + audit log, delivered as a PWA.
+- **Video ingest → HLS streaming** (Axum + FFmpeg) — unattended capture → multi-bitrate HLS ladder, WebSocket live state, JWT + TOTP admin.
+- **Single-binary ops dashboard** + **scheduled host-maintenance daemon** (Rust, `systemd`, embedded assets, HTTP Digest auth).
 
-## 💻 Installations & Projects
+## 🌱 Currently learning
+- **TryHackMe** — Cyber Security 101 path (Linux fundamentals, offensive/defensive intros).
+- **Hack The Box Academy** — 10 modules (Linux, networking, web requests, Windows).
+- **OverTheWire Bandit** — completed. Continuing to deepen Rust and systems programming.
 
-### 1. **Web Scraping Setup (Python)**
+## 💞 Open to collaborating on
+Web scraping & data pipelines • system automation (Python / Bash / Rust) • virtual machine & low-level system simulation • distributed systems • security tooling.
 
-I’m developing a Python-based scraping system that alternates between scraping movies and series data from dynamic websites like **uflix.to**. The setup includes:
+## 📫 Reach me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-ngiri-2278672aa/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samuelngiri9@gmail.com)
 
-- **Python Virtual Environment**: I run my projects in a virtual environment (`myenv`) on my machine `monero`, under the user `xnero`. Key components of the scraping setup:
-  - `get_movies_series.py`: Manages alternating scraping for both movies and series.
-  - `movies.py`: Extracts movie data (titles, IMDb ratings, release dates, countries, etc.).
-  - `series.py`: Extracts series data using a similar method to movies.
-  - **Logger Module**: Custom logging (`logger.py`) for tracking the scraping process and troubleshooting.
-  - **Database (SQLite)**: Scraped data, such as titles and metadata, is stored in an SQLite database, while images are downloaded and saved to local directories (`/data/images/movies` and `/data/images/series`).
-
-### 2. **Nextcloud Installation (Snap)**
-
-I installed **Nextcloud** via Snap, running under the `www-data` user. It handles file sharing with an emphasis on encryption and security, ensuring that sensitive files are protected, especially in environments like healthcare services.
-
-### 3. **Stunnel Configuration**
-
-I set up **stunnel** to encrypt traffic for multiple services:
-
-- **Webmin** on port 4443: For server administration.
-- **BasicSwap** on port 12701: For handling swap transactions securely.
-- **HTTPS** on port 8080: For encrypting web traffic on my local setup.
-
-### 4. **Cygwin for Windows Development**
-
-To enhance my development experience on Windows, I installed **Cygwin**, which provides a UNIX-like shell environment. This helps me automate tasks and run shell scripts with ease, making it an ideal tool for cross-platform development.
-
-### 5. **VirtualBox macOS Setup**
-
-I use **VirtualBox** to virtualize macOS on my Windows system, allowing me to test and develop in macOS environments. I’ve automated the installation process using custom scripts, saving time when setting up development environments.
-
-### 6. **Alphatron-001 Simulation (C++)**
-
-I’m building the **Alphatron-001 virtual machine simulation**, a project that explores low-level computing concepts, including:
-
-- Fetch-decode-execute cycle for machine code.
-- Implementing custom machine code instructions (`INPUT`, `OUTPUT`, `INC`, `SUM`, etc.).
-- Developing programs such as `sum.alp` and `maxof2.alp` for testing various features of the simulation.
-
-### 7. **C++ Program for Roman Numerals Conversion**
-
-This project handles conversion between Arabic and Roman numerals, with features such as:
-
-- Converting Roman numerals to Arabic and vice versa.
-- Supporting multi-digit Roman numerals.
-- Implementing a "Plus Mode," where Roman numerals in an input string are summed up automatically.
-
----
-
-## 📂 Project Files
-
-- **web_scraping/**: Python scripts (`movies.py`, `series.py`, `get_movies_series.py`) for scraping dynamic websites and saving data locally.
-- **alphatron/**: C++ files for the Alphatron-001 virtual machine simulation.
-- **cpp_projects/**: C++ projects, including the Roman numeral converter and other utilities.
-- **nextcloud_config/**: Configuration files for setting up and securing Nextcloud.
-- **stunnel_config/**: Configuration files for encrypting traffic using stunnel.
-
----
-
-## 💞️ Collaboration
-
-I’m open to collaborating on:
-
-- **Web Scraping Projects**: Projects that involve large-scale data collection, management, and automation.
-- **System Automation**: Building automated systems using Python, shell scripting, or C++ to streamline workflows.
-- **Virtual Machine & System Simulation**: Projects related to simulating or building virtual machines and low-level system programming.
-- **Healthcare Technology**: Applying my tech skills to innovate in aged care and disability services, making systems more efficient and accessible.
-
----
-
-## 📫 How to Reach Me
-
-- Email: [samuelngiri9@gmail.com](mailto:samuelngiri9@gmail.com)
-- LinkedIn: [linkedin.com/in/samuel-ngiri-2278672aa](https://www.linkedin.com/in/samuel-ngiri-2278672aa)
-- GitHub: [github.com/ngir0003](https://github.com/ngir0003)
-
----
-
-## 😄 Pronouns
-
-He/Him
-
----
-
-## ⚡ Fun Fact
-
-I recently completed a placement at **The Homestead Retirement Village** as a Personal Care Worker. This hands-on experience gave me valuable insights into how technology can be used to improve care services for the elderly and disabled, and I’m passionate about integrating tech solutions into this space to create impactful innovations.
-
----
-
-<!---
-ngir0003/ngir0003 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ngir0003&show_icons=true&count_private=true&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ngir0003&layout=compact&hide_border=true&langs_count=8)
