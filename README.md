@@ -63,6 +63,3 @@ Web scraping & data pipelines • system automation (Python / Bash / Rust) • v
 ## 📫 Reach me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-ngiri-2278672aa/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samuelngiri9@gmail.com)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ngir0003&show_icons=true&count_private=true&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ngir0003&layout=compact&hide_border=true&langs_count=8)
